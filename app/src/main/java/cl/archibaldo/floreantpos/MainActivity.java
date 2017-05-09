@@ -1,6 +1,7 @@
 package cl.archibaldo.floreantpos;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,34 +33,42 @@ public class MainActivity extends Activity {
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.getSettings().setUseWideViewPort(false);
 
-        String url = "";
+        final SharedPreferences settings = getSharedPreferences("config", 0);
+        final String ipPuerto = settings.getString("IP", "");
 
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
 
-            AlertDialog.Builder alert = new AlertDialog.Builder(this);
-
-            alert.setTitle("Ingrese la IP");
-            alert.setMessage("Ingrese la IP de Floreant Pos en formato: ip:puerto");
+        alert.setTitle("Ingrese la IP");
+        alert.setMessage("Ingrese la IP de Floreant Pos en formato: ip:puerto");
 
 // Set an EditText view to get user input
-            final EditText input = new EditText(this);
-            alert.setView(input);
+        final EditText input = new EditText(this);
+        alert.setView(input);
 
-            alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int whichButton) {
-                    String url = "http://" + input.getText().toString();
-                    myWebView.loadUrl(url);
-                }
-            });
+        if(!ipPuerto.equals("")){
+            input.setText(ipPuerto);
+        }
+
+        alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                String url = "http://" + input.getText().toString();
+                myWebView.loadUrl(url);
+            }
+        });
+
+        alert.show();
+
+        if(ipPuerto.equals("")){
+            SharedPreferences guardaIP = getSharedPreferences("config", Context.MODE_PRIVATE);
+            final SharedPreferences.Editor prefs = guardaIP.edit();
+            prefs.putString("IP", input.getText().toString());
+            prefs.commit();
+        }
 
 
-            alert.show();
 
 
-
-
-
-
-        /*myWebView.loadUrl("https://archibaldodelacruz.cl");*/
     }
+
 
 }
