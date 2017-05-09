@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
                 final SharedPreferences.Editor prefs = guardaIP.edit();
                 prefs.putString("IP", input.getText().toString());
                 prefs.commit();
-                String url = "http://" + input.getText().toString();
+                String url = "http://" + input.getText().toString() + "/?app=FloreantPos&anonym=true";
                 myWebView.loadUrl(url);
             }
         });
