@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
     build-mode="COLD"
-    density="420dpi"
+    density="mdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494343474834"
+    timestamp="1494347124213"
     token="-7446545350750260597"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,22 +25,22 @@
 
     <build
         build-mode="FULL"
-        timestamp="1494341813211"
+        timestamp="1494346981840"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -49,32 +49,24 @@
             location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1494343445233"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494343474834"
+        timestamp="1494347124213"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -2,11 +2,7 @@ package cl.archibaldo.floreantpos;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.content.res.Configuration;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
 import android.webkit.WebView;
 import android.app.AlertDialog;
 import android.webkit.WebViewClient;
@@ -51,6 +47,11 @@ public class MainActivity extends Activity {
 
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
+
+                SharedPreferences guardaIP = getSharedPreferences("config", Context.MODE_PRIVATE);
+                final SharedPreferences.Editor prefs = guardaIP.edit();
+                prefs.putString("IP", input.getText().toString());
+                prefs.commit();
                 String url = "http://" + input.getText().toString();
                 myWebView.loadUrl(url);
             }
@@ -58,12 +59,7 @@ public class MainActivity extends Activity {
 
         alert.show();
 
-        if(ipPuerto.equals("")){
-            SharedPreferences guardaIP = getSharedPreferences("config", Context.MODE_PRIVATE);
-            final SharedPreferences.Editor prefs = guardaIP.edit();
-            prefs.putString("IP", input.getText().toString());
-            prefs.commit();
-        }
+
 
 
 
