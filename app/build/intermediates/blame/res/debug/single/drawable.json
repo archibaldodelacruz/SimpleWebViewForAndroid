@@ -12,16 +12,16 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
+        "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -52,6 +52,10 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_sync_black_24dp.xml",
+        "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\drawable\\ic_sync_black_24dp.xml"
+    },
+    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
+        "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -142,10 +150,6 @@
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",

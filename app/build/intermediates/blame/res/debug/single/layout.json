@@ -12,14 +12,6 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\abc_search_view.xml"
     },
@@ -116,8 +108,8 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\layout\\activity_webview.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -138,10 +130,6 @@
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",

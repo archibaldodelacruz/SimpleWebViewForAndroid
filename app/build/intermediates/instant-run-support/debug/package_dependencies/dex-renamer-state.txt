@@ -1,4 +1,4 @@
-#Tue May 09 11:56:59 CLST 2017
+#Mon May 15 22:43:33 CLT 2017
 file.2=E\:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cb120de91596297d3967022bf3452a6723ba7d0e\\classes.dex
 base.2=E\:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cb120de91596297d3967022bf3452a6723ba7d0e
 file.1=E\:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_64ac47491010316ded160e0bba868a7e28f8fc95\\classes.dex

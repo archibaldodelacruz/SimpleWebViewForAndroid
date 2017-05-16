@@ -1,70 +1,88 @@
 package cl.archibaldo.floreantpos;
 
-import android.app.Activity;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.webkit.WebView;
-import android.app.AlertDialog;
-import android.webkit.WebViewClient;
-import android.widget.EditText;
-import android.content.DialogInterface;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
-    WebView myWebView;
+    private String ipDireccion;
+    private String ipPuerto;
+    private String chkSave;
+    private String url;
+    private EditText ipText, ipPort;
+    private Button btn_conectar;
+    private CheckBox chb_guardar;
+    private TextView mensaje;
+    private SharedPreferences settings;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
-        this.setContentView(R.layout.activity_main);
-        myWebView = (WebView) this.findViewById(R.id.webview);
-        myWebView.setWebViewClient(new WebViewClient());
-        myWebView.getSettings().setAllowContentAccess(true);
-        myWebView.getSettings().setAllowFileAccess(true);
-        myWebView.getSettings().setDatabaseEnabled(true);
-        myWebView.getSettings().setDomStorageEnabled(true);
-        myWebView.getSettings().setJavaScriptEnabled(true);
-        myWebView.getSettings().setLoadWithOverviewMode(true);
-        myWebView.getSettings().setUseWideViewPort(false);
+        setContentView(R.layout.activity_main);
 
-        final SharedPreferences settings = getSharedPreferences("config", 0);
-        final String ipPuerto = settings.getString("IP", "");
+        ipText = (EditText) findViewById(R.id.ipAddress);
+        ipPort = (EditText) findViewById(R.id.ipPort);
 
-        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        btn_conectar = (Button) findViewById(R.id.btn_conectar);
 
-        alert.setTitle("Ingrese la IP");
-        alert.setMessage("Ingrese la IP de Floreant Pos en formato: ip:puerto");
+        chb_guardar = (CheckBox) findViewById(R.id.chboxNoPreguntar);
 
-// Set an EditText view to get user input
-        final EditText input = new EditText(this);
-        alert.setView(input);
+        mensaje = (TextView) findViewById(R.id.mensajes);
 
-        if(!ipPuerto.equals("")){
-            input.setText(ipPuerto);
+
+        settings = getSharedPreferences("config", 0);
+        ipDireccion = settings.getString("IP", "");
+        ipPuerto = settings.getString("PORT","");
+        chkSave = settings.getString("SAVE","");
+        url = "http://" + ipDireccion + ":" + ipPuerto + "/?app=FloreantPos&anonym=true";
+
+        if(chkSave.equals("NO") || chkSave.equals("")){
+            ipText.setText(ipDireccion.trim());
+            ipPort.setText(ipPuerto.trim());
+        }else{
+            iniciarWebView(url);
         }
 
-        alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
+        btn_conectar.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                if (ipText.getText().toString().trim().equals("") || ipPort.getText().toString().trim().equals("")) {
+                    mensaje.setText("Debe ingresar la ip y el puerto");
+                } else {
+                    if (chb_guardar.isChecked()) {
+                        SharedPreferences guardaDatos = getSharedPreferences("config", Context.MODE_PRIVATE);
+                        final SharedPreferences.Editor prefs = guardaDatos.edit();
+                        prefs.putString("IP", ipText.getText().toString().trim());
+                        prefs.putString("PORT", ipPort.getText().toString().trim());
+                        prefs.putString("SAVE", "YES");
+                        prefs.commit();
+                    } else {
+                        SharedPreferences guardaDatos = getSharedPreferences("config", Context.MODE_PRIVATE);
+                        final SharedPreferences.Editor prefs = guardaDatos.edit();
+                        prefs.putString("IP", ipText.getText().toString().trim());
+                        prefs.putString("PORT", ipPort.getText().toString().trim());
+                        prefs.putString("SAVE", "NO");
+                        prefs.commit();
+                    }
+                    url = "http://" + ipText.getText().toString().trim() + ":" + ipPort.getText().toString().trim() + "/?app=FloreantPos&anonym=true";
+                    mensaje.setText("");
+                    iniciarWebView(url);
+                }
 
-                SharedPreferences guardaIP = getSharedPreferences("config", Context.MODE_PRIVATE);
-                final SharedPreferences.Editor prefs = guardaIP.edit();
-                prefs.putString("IP", input.getText().toString());
-                prefs.commit();
-                String url = "http://" + input.getText().toString() + "/?app=FloreantPos&anonym=true";
-                myWebView.loadUrl(url);
             }
         });
+   }
 
-        alert.show();
-
-
-
-
-
-
-    }
-
-
+   public void iniciarWebView(String url){
+       Intent intent = new Intent(this,ActivityWebView.class);
+       intent.putExtra("URL",url);
+       startActivity(intent);
+   }
 }

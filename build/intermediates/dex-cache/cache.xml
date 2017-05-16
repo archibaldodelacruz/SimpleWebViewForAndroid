@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2c63fd44305531152b3aaee19a413b61187f6505">
+        sha1="657a4e665e86471c5a6fa1a55e94e7c5053478d5">
         <dex dex="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4663f51abf9cddad507f090867808fe420b15ba8\classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="E:\Skydrive\Dev\Android\AndroidForFloreantPosWeb\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_daa49e8f2a9d7473aa35052c2233fa6fd2077263\classes.dex" />
     </item>
 

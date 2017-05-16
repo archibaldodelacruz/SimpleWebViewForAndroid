@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FloreantPos</string>
+    <string name="ip_text">Ingrese la ip del servidor Floreant Pos</string>
+    <string name="port_text">Ingrese puerto</string>
+    <string name="chbox_text">Recordar los datos y no volver a preguntar</string>
+    <string name="btn_conectar">Conectar</string>
+    <string name="mensaje"></string>
+
 </resources>
