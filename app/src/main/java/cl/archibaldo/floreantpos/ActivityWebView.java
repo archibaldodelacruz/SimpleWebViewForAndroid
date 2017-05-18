@@ -52,9 +52,10 @@ public class ActivityWebView extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
+        hideSystemUI();
     }
 
-        hideSystemUI();
+    protected void hideSystemUI() {
 
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         decorView = this.getWindow().getDecorView();
