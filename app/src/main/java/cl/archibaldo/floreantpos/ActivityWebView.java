@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
 import android.view.View;
 import android.view.WindowManager;
 import android.webkit.WebView;
@@ -53,7 +54,7 @@ public class ActivityWebView extends Activity {
         super.onPause();
     }
 
-    private void hideSystemUI() {
+        hideSystemUI();
 
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         decorView = this.getWindow().getDecorView();
