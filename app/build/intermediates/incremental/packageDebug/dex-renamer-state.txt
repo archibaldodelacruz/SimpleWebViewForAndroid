@@ -1,7 +1,0 @@
-#Wed Jun 14 00:01:05 CLT 2017
-base.0=E\:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e63b0c508037cb4ce3b7b3f89a643eeb4ccadba
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e172e2080f3945e3d2580e120251064575ac078b\\classes.dex
-base.1=E\:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e172e2080f3945e3d2580e120251064575ac078b
-file.0=E\:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4e63b0c508037cb4ce3b7b3f89a643eeb4ccadba\\classes.dex
