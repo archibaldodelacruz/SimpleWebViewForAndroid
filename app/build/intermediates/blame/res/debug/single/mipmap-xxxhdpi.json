@@ -4,7 +4,15 @@
         "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     }
 ]

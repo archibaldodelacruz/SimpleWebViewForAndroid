@@ -4,6 +4,10 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
@@ -12,7 +16,19 @@
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "E:\\Skydrive\\Dev\\Android\\AndroidForFloreantPosWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Skydrive\\Dev\\Android\\SimpleWebViewForAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\Usuarios\\vimer\\.android\\build-cache\\5e0f329e44973de93855f603adc520869de93a98\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]
